@@ -10,8 +10,6 @@ export const Content = styled.div`
     max-width: 1300px;
     padding: 0 12px;
     margin: 0 auto;
-
-
     @media (min-width: 768px) {
         padding: 0 50px;
     }
@@ -80,6 +78,7 @@ export const Contact = styled.div`
 
         input {
             flex: 1;
+            width: 100%;
             color: var(--color-grey-3);
             background: transparent;
             border: none;
@@ -140,7 +139,7 @@ export const Cards = styled.div`
         padding: 3.5rem 2.2rem 3rem;
         border-radius: 24px;
         cursor: pointer;
-        transition: background 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
 
         span {
             display: flex;
@@ -157,13 +156,11 @@ export const Cards = styled.div`
             color: var(--color-text);
             margin: 35px 0 24px;
         }
-
         p {
             font-size: 1rem;
             color: var(--color-grey-1);
             font-weight: 400;
         }
-
         button {
             outline: none;
             border: none;
@@ -175,7 +172,6 @@ export const Cards = styled.div`
             cursor: pointer;
             transition: background 400ms ease;
         }
-
 
         &:hover {
             box-shadow: 0px 10px 30px rgba(10, 10, 10, 0.1);
@@ -264,7 +260,6 @@ export const ShowCase = styled.div`
 
         .see-more {
             justify-content: flex-end;
-            
         }
 
     }

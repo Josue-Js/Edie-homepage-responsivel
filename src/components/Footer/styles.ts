@@ -89,6 +89,7 @@ export const Email = styled.div`
 
         input {
             flex: 1;
+            width: 100%;
             color: var(--color-grey-3);
             background: transparent;
             outline: none;
